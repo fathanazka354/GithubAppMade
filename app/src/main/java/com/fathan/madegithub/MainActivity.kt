@@ -3,20 +3,12 @@ package com.fathan.madegithub
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.replace
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.NavigationUI.setupWithNavController
 import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.fathan.madegithub.databinding.ActivityMainBinding
-import com.fathan.madegithub.favorite.FavoriteFragment
-import com.fathan.madegithub.home.HomeFragment
-import com.fathan.madegithub.setting.SettingFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var mainBinding: ActivityMainBinding

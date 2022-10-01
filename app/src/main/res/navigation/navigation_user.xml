@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.fathan.madegithub.favorite.FavoriteFragment"
+        android:name="com.fathan.favorite.favorite.FavoriteFragment"
         android:label="fragment_favorite"
         tools:layout="@layout/fragment_favorite" >
         <action

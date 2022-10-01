@@ -1,4 +1,4 @@
-package com.fathan.madegithub.favorite
+package com.fathan.favorite.favorite
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
