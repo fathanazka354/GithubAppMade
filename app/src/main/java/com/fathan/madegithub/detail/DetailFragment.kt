@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
 import androidx.navigation.fragment.navArgs
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.fathan.core2.data.Resource
@@ -102,9 +103,9 @@ class DetailFragment : Fragment() {
 
     private fun changedFavorite(state: Boolean){
         if (state){
-            detailBinding.fabFavorite.setImageDrawable(resources.getDrawable(R.drawable.ic_favorite))
+            detailBinding.fabFavorite.setImageDrawable(ResourcesCompat.getDrawable(resources,R.drawable.ic_favorite,null))
         }else{
-            detailBinding.fabFavorite.setImageDrawable(resources.getDrawable(R.drawable.ic_unfavorite))
+            detailBinding.fabFavorite.setImageDrawable(ResourcesCompat.getDrawable(resources,R.drawable.ic_unfavorite,null))
         }
     }
 
